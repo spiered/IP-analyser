@@ -1,0 +1,27 @@
+{
+    "name": "ip-analyser",
+    "version": "1.0.0",
+    "description": "IP analyser is a service which allows the user to find the maximum amount of information about a specific IP adress.",
+    "main": "server.js",
+    "scripts": {
+        "test": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spiered/IP-analyser.git"
+    },
+    "author": "Adrien Dumont (spiered)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/spiered/IP-analyser/issues"
+    },
+    "homepage": "https://github.com/spiered/IP-analyser#readme",
+    "dependencies": {
+        "geoip-lite": "^1.4.2",
+        "simple-geoip": "^0.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
